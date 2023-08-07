@@ -16,14 +16,26 @@ export default function AchievementCard({
     gradientColour = "from-yellow-500 via-yellow-300 to-yellow-100";
     // eslint-disable-next-line
   } else if (
-    award.toUpperCase().trim() === "silver medal".toUpperCase().trim()
+    award.toUpperCase().trim() === "silver medal".toUpperCase().trim() ||
+    award.toUpperCase().trim() === "First Runner-up Award".toUpperCase().trim()
   ) {
     gradientColour = "from-gray-400 via-gray-200 to-gray-100";
     // eslint-disable-next-line
-  } else if (award.toUpperCase().trim() == "bronze".toUpperCase().trim()) {
+  } else if (
+    award.toUpperCase().trim() === "bronze".toUpperCase().trim() ||
+    award.toUpperCase().trim() === "Second Runner-up Award".toUpperCase().trim()
+  ) {
     gradientColour = "from-amber-600 via-amber-500 to-amber-400";
+  } else if (
+    award.toUpperCase().trim() === "Third Runner-up Award".toUpperCase().trim()
+  ) {
+    gradientColour = "from-blue-500 via-blue-200 to-blue-50";
+  } else if (
+    award.toUpperCase().trim() === "2nd Place Observer".toUpperCase().trim()
+  ) {
+    gradientColour = "from-purple-500 via-purple-200 to-purple-50";
   } else {
-    gradientColour = "from-green-300 via-green-200 to-green-100";
+    gradientColour = "from-green-200 via-green-100 to-green-50";
   }
 
   return (
@@ -40,7 +52,7 @@ export default function AchievementCard({
                 </div>
                 <div className="grid grid-cols-2">
                   <p className="w-full h-full text-left font-semibold text-gray-500">
-                    {date+ ", " + location}
+                    {date + ", " + location}
                   </p>
                   <p className="w-full h-full text-right font-semibold text-gray-500">
                     {award}

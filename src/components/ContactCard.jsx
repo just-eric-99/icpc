@@ -3,7 +3,7 @@ export default function ContactCard({ name, link }) {
     <>
       <div className="items-start justify-center mx-auto w-50 flex ">
         <div className="relative group w-50">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt w-50"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-black to-gray-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt w-50"></div>
           <button
             className={`relative px-7 py-4 bg-white rounded-lg leading-none items-center divide-x divide-gray-600 w-50`}
           >

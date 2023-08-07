@@ -25,7 +25,16 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#news">News</a>
+              </li>
+              <li>
                 <a href="#achievements">Achievements</a>
+              </li>
+              <li>
+                <a href="#photos">Photos</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -33,22 +42,28 @@ export default function Navbar() {
             </ul>
           </div>
           {/* eslint-disable-next-line */}
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a href="#" className="btn btn-ghost normal-case text-xl">ICPC</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#news">News</a>
+            </li>
+            <li>
               <a href="#achievements">Achievements</a>
+            </li>
+            <li>
+              <a href="#photos">Photos</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          {/* eslint-disable-next-line */}
-          <a className="btn">Button</a>
-        </div>
+        <div className="navbar-end">{/* <a className="btn">Button</a> */}</div>
       </div>
     </nav>
   );

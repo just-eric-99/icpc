@@ -31,7 +31,7 @@ export default function ContactSection() {
           Contact
         </h1>
         <div className="py-8 mx-auto container ">
-          <div className={`flex justify-center items-center gap-8`}>
+          <div className={`flex flex-wrap justify-center items-center gap-8`}>
             {contacts.map((contact) => {
               return (
                 <div className="col-span-1" key={contact.key}>
