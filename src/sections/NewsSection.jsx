@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import news from "../data/news.json";
 import NewsCard from "../components/NewsCard";
 

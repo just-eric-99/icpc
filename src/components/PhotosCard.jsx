@@ -12,7 +12,7 @@ export default function PhotosCard({ id, directoryName, photoNum }) {
     }
 
     setPhotos(tempPhoto);
-  }, []);
+  }, [directoryName, photoNum]);
 
   return (
     <>
@@ -37,7 +37,7 @@ export default function PhotosCard({ id, directoryName, photoNum }) {
             {photos.map((photo) => {
               return (
                 <div className="rounded-lg" key={photo.key}>
-                  <img src={photo.photoLink} alt="photo" />
+                  <img src={photo.photoLink} alt="" />
                 </div>
               );
             })}
@@ -51,5 +51,3 @@ export default function PhotosCard({ id, directoryName, photoNum }) {
     </>
   );
 }
-
-function loadAllPhotos(directory, photoNum) {}

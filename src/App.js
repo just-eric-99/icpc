@@ -20,7 +20,24 @@ function App() {
           <LinkSection />
           <ContactSection />
         </section>
-        <footer>hello</footer>
+        <footer className="footer items-center p-10 bg-gray-100">
+          <div className="items-center grid-flow-col">
+            <p>Copyright © 2023 - All right reserved</p>
+          </div>
+          <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+            <a
+              href="https://www.comp.hkbu.edu.hk/v1/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://www.comp.hkbu.edu.hk/v1/revamp/images/logo_650_35anniv.svg"
+                alt="logo"
+                className="w-96"
+              />
+            </a>
+          </div>
+        </footer>
       </div>
     </>
   );

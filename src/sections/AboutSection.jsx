@@ -6,7 +6,7 @@ export default function AboutSection() {
         <div className="shadow-md p-8 rounded-lg">
           <p className="mb-3 text-lg text-gray-500 dark:text-gray-400 leading-loose">
             <strong className="font-semibold text-gray-900">
-              {"International Collegiate Programming Contest (ICPC)" + " "}
+              {"International Collegiate Programming Contest (ICPC) "}
             </strong>
             is an algorithmic programming contest for college students, known as
             the oldest, largest, and most prestigious programming contest in the

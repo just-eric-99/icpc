@@ -6,7 +6,7 @@ export default function LinkSection() {
     <>
       <div className="container mt-12 mx-auto px-4 pt-24" id="links">
         <h1 className="flex flex-row text-4xl font-bold text-center content-center justify-center">
-          Useful Links
+          Links
         </h1>
         {links.map((link, index) => {
           return (
