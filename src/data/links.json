@@ -1,0 +1,66 @@
+[
+  {
+    "type": "Official Website",
+    "details": [
+      {
+        "linkName": "ICPC Official Website",
+        "link": "https://icpc.global/"
+      }
+    ]
+  },
+  {
+    "type": "Online Judge",
+    "details": [
+      {
+        "linkName": "Codeforces",
+        "link": "https://codeforces.com/"
+      },
+      {
+        "linkName": "Leetcode",
+        "link": "https://leetcode.com/"
+      },
+      {
+        "linkName": "Atcoder",
+        "link": "https://atcoder.jp/"
+      },
+      {
+        "linkName": "Vjudge",
+        "link": "https://vjudge.net/"
+      },
+      {
+        "linkName": "ECNU Online Judge (in Chinese)",
+        "link": "https://acm.ecnu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "type": "Algorithm Wiki",
+    "details": [
+      {
+        "linkName": "CP-Algorithms",
+        "link": "https://cp-algorithms.com/"
+      },
+      {
+        "linkName": "OI-Wiki",
+        "link": "https://oi-wiki.org/"
+      }
+    ]
+  },
+  {
+    "type": "Exercises",
+    "details": [
+      {
+        "linkName": "Easy",
+        "link": "https://vjudge.net/contest/465508"
+      },
+      {
+        "linkName": "Medium",
+        "link": "https://vjudge.net/contest/465507"
+      },
+      {
+        "linkName": "Hard",
+        "link": "https://vjudge.net/contest/465965"
+      }
+    ]
+  }
+]

@@ -12,7 +12,7 @@ export default function NewsSection() {
         <div className="mt-8 grid grid-cols-1 gap-4">
           {news.map((newss, index) => {
             if (index >= 5 && showAll) {
-                return <></>
+              return <></>;
             } else {
               return (
                 <div key={newss.id}>

@@ -2,24 +2,33 @@
   "name": "icpc-static-website",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://cors-anywhere.herokuapp.com/",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@dhaiwat10/react-link-preview": "^1.15.0",
     "@nodelib/fs.scandir": "^2.1.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bnet": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "link-preview-js": "^3.0.4",
     "list-react-files": "^0.2.0",
+    "net": "^1.0.2",
     "papaparse": "^5.4.1",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.88.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
@@ -40,8 +49,20 @@
     ]
   },
   "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "cors-anywhere": "^0.4.4",
+    "crypto-browserify": "^3.12.0",
     "daisyui": "^3.5.0",
-    "tailwindcss": "^3.3.3"
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "react-tiny-link": "^3.6.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.3.3",
+    "url": "^0.11.1"
   },
   "browser": {
     "fs": false,
